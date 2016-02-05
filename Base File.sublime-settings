@@ -1,0 +1,8 @@
+{
+	"jsdocs_indentation_spaces": 1,
+    "jsdocs_param_name": true,
+    "jsdocs_param_description": false,
+    "jsdocs_spacer_between_sections": true,
+    "jsdocs_return_description": false,
+    "jsdocs_align_tags": "no"
+}

@@ -1,0 +1,33 @@
+<snippet>
+    <content><![CDATA[
+
+namespace LaFourchette\\${1:Namespace}\Tests${2:\Suffix};
+
+use LaFourchette\Common\Tests\ProphecyTestCase;
+use Prophecy\Prophecy\ObjectProphecy;
+
+class ${3:MyClass}Test extends ProphecyTestCase
+{
+    /**
+     * {@inheritDoc}
+     */
+    public function setUp()
+    {
+        parent::setUp();
+
+        // \$var = $this->prophesize(
+        //     'Symfony\Component\DependencyInjection\ContainerInterface'
+        // );
+    }
+
+    public function test${4:MyMethod}()
+    {
+    }
+}
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>test</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+</snippet>

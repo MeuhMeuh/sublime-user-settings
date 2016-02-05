@@ -1,0 +1,8 @@
+{
+	"show_debug": false,
+	"phpcs_php_path": "/usr/bin/php",
+	"phpcs_executable_path": "/usr/local/bin/phpcs",
+	"php_cs_fixer_executable_path": "/usr/local/bin/php-cs-fixer",
+
+	"phpcs_show_errors_on_save": false
+}

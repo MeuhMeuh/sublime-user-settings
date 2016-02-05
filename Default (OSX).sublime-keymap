@@ -1,0 +1,6 @@
+[
+    { "keys": ["command+shift+x"], "command": "run_macro_file", "args": {"file": "Packages/User/simplecomment.sublime-macro"} },
+    { "keys": ["command+shift+c"], "command": "run_macro_file", "args": {"file": "Packages/User/phpdoc.sublime-macro"} },
+    { "keys": ["super+v"], "command": "paste_and_indent" },
+    { "keys": ["super+shift+v"], "command": "paste" }
+]
